@@ -13,6 +13,7 @@ More than 25% of entire revenue in E-Commerce is attributed to apparels & access
 We have total 70,000 images (28 x 28), out of which 60,000 are part of train images with the label of the type of apparel (total classes: 10) and rest 10,000 images are unlabelled (known as test images).The task is to identify the type of apparel for all test images. Given below is the code description for each of the apparel class/label.
  
 <b> Labels and Descriptions </b>
+
 Label	Description
 0	T-shirt/top
 1	Trouser
@@ -26,12 +27,15 @@ Label	Description
 9	Ankle boot 
 
 <b> Public-Private Split </b>
+
 Public and Private split for test images are 40:60.
 
-</b> Evaluation Metric </b>
+<b> Evaluation Metric </b>
+
 The evaluation metric for this challenge is multi-class accuracy.
 
-</b> Data </b>
+<b> Data </b>
+
 Train link has "train.csv" and apparel images for train
 Test link has "test.csv" having images name, need to predict the image label
 Sample Submissons link has the csv format for the submission file
